@@ -138,21 +138,83 @@ def turtleLetter(letter,tur):
 	    tur.fd(30)
 	    tur.right(90)
 	    tur.fd(32)
-    elif letter == "T":
-	    pass
+     elif letter == "T":
+        tur.setheading(0)
+        tur.pd()
+        tur.left(90)
+        tur.fd(50)
+        tur.right(90)
+        tur.fd(20)
+        tur.bk(40)
+        tur.fd(40)
     elif letter == "U":
-	    pass
-    elif letter == "V":
-	    pass
-    elif letter == "W":
-	    pass
-    elif letter == "X":
-	    pass
-    elif letter == "Y":
-	    pass
-    elif letter == "Z":
-	    pass		
+        tur.setheading(0)
+        tur.pd()
+        tur.left(90)
+        tur.fd(50)
+        tur.right(180)
+        tur.fd(50)
+        tur.left(90)
+        tur.fd(40)
+        tur.left(90)
+        tur.fd(50)
 
+    elif letter == "V":
+        tur.setheading(0)
+        tur.pd()
+        tur.left(135)
+        tur.fd(50)
+        tur.right(180)
+        tur.fd(50)
+        tur.left(90)
+        tur.fd(50)
+    
+    elif letter == "W":
+        tur.setheading(0)
+        tur.pd()
+        tur.left(135)
+        tur.fd(50)
+        tur.right(180)
+        tur.fd(50)
+        tur.left(90)
+        tur.fd(50)
+        tur.right(90)
+        tur.fd(50)
+        tur.left(90)
+        tur.fd(50)
+    elif letter == "X":
+        tur.setheading(0)
+        tur.pd()
+        tur.left(45)
+        tur.fd(50)
+        tur.left(135)
+        tur.pu()
+        tur.fd(25)
+        tur.pd()
+        tur.left(135)
+        tur.fd(50)
+        
+    elif letter == "Y":
+        tur.setheading(0)
+        tur.pd()
+        tur.left(90)
+        tur.fd(50)
+        tur.left(45)
+        tur.fd(25)
+        tur.left(180)
+        tur.fd(25)
+        tur.left(90)
+        tur.fd(25)
+    elif letter == "Z":
+        tur.setheading(0)
+        tur.pd()
+        tur.fd(30)
+        tur.left(180)
+        tur.fd(30)
+        tur.right(135)
+        tur.fd(50)
+        tur.left(135)
+        tur.fd(30)
         
     elif letter == "Ax":
         # code here
