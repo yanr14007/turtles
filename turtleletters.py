@@ -204,8 +204,8 @@ def turtleLetter(letter,tur):
             tur.right(90)
             tur.fd(5)
             tur.pd()
-    elif letter == "N":
-	    tur.setheading(0)
+        elif letter == "N":
+            tur.setheading(0)
             tur.pd()
             tur.left(90)
             tur.fd(30)
@@ -215,6 +215,9 @@ def turtleLetter(letter,tur):
             tur.fd(5)
             tur.left(90)
             tur.fd(30)
+            tur.pu()
+            tur.right(90)
+            tur.fd(15)
     elif letter == "O":
 	    tur.setheading(0)
 	    tur.pd()
@@ -225,6 +228,12 @@ def turtleLetter(letter,tur):
 	    tur.fd(40)
 	    tur.left(90)
 	    tur.fd(50)
+	    tur.left(180)
+	    tur.fd(50)
+	    tur.right(90)
+	    tur.fd(40)
+	    tur.pu()
+	    tur.fd(15)
     elif letter == "P":
 	    tur.setheading(0)
 	    tur.pd()
@@ -234,7 +243,13 @@ def turtleLetter(letter,tur):
 	    tur.left(90)
 	    tur.fd(40)
 	    tur.left(90)
-	    tur.fd(100)		
+	    tur.fd(100)
+	    tur.pu()
+	    tur.left(180)
+	    tur.fd(100)
+	    tur.right(90)
+	    tur.fd(55)
+	    
     elif letter == "Q":
 	    tur.setheading(0)
 	    tur.pd()
@@ -251,6 +266,14 @@ def turtleLetter(letter,tur):
 	    tur.fd(15)
 	    tur.left(180)
 	    tur.fd(30)
+	    tur.pu()
+	    tur.left(180)
+	    tur.fd(15)
+	    tur.left(135)
+	    tur.fd(50)
+	    tur.right(90)
+	    tur.fd(15)
+	    
     elif letter == "R":
 	    tur.setheading(0)
 	    tur.pd()
@@ -265,6 +288,17 @@ def turtleLetter(letter,tur):
 	    tur.fd(50)
 	    tur.right(135)
 	    tur.fd(70)
+	    tur.pu()
+	    tur.left(180)
+	    tur.fd(70)
+	    tur.right(135)
+	    tur.fd(40)
+	    tur.left(90)
+	    tur.fd(50)
+	    tur.right(90)
+	    tur.fd(15)
+	    
+	    
     elif letter == "S":
 	    tur.setheading(0)
 	    tur.pd()
@@ -282,6 +316,18 @@ def turtleLetter(letter,tur):
 	    tur.fd(30)
 	    tur.right(90)
 	    tur.fd(32)
+	    tur.right(180)
+	    tur.fd(32)
+	    tur.left(90)
+	    tur.fd(30)
+	    tur.left(90)
+	    tur.fd(30)
+	    tur.right(90)
+	    tur.fd(30)
+	    tur.right(90)
+	    tur.fd(30)
+	    tur.pu()
+	    
      elif letter == "T":
         tur.setheading(0)
         tur.pd()
