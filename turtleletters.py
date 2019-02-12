@@ -327,6 +327,7 @@ def turtleLetter(letter,tur):
 	    tur.right(90)
 	    tur.fd(30)
 	    tur.pu()
+	    tur.fd(15)
 	    
      elif letter == "T":
         tur.setheading(0)
